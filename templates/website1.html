@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="{{ url_for('static', filename='website1.css') }}">
+<head>
+<title>Buffy's Gym</title>
+</head>
+<body>
+<div style="text-align: center; justify-content: center;">
+    <a href="{{ url_for('Home') }}">
+    <button>Home</button>
+</a>
+<a href="{{ url_for('AboutUs') }}">
+    <button>About Us</button>
+</a>
+<a href="{{ url_for('Membership') }}">
+    <button>Membership</button>
+</a>
+</div>
+<h1>Welcome to Buffy's Gym</h1>
+<div style="text-align: center; justify-content: center;">
+    <img src="{{ url_for('static', filename='gym2.jpg') }}">
+</div>
+<p class="p1"><b>Sign up today.</b><br>Get 10% off if a friend of yours is already signed up with us.</p>
+</body>
+</html>
+4
